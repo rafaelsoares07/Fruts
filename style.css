@@ -7,15 +7,36 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
+
 body{
 	position: relative;
 	background: rgba(255, 0, 0, 0.5);
 }
 
+.verde{
+	background: rgba(0, 255, 0, 0.5);
+}
+
+.amarelo{
+	background: rgba(255, 225, 0, 0.8);
+}
+
+.roxo{
+	background: rgba(242,55, 186, 0.5);
+}
+
+.vermelho{
+	background: rgba(255, 0, 0, 0.5);
+}
+
+
+
+
+
 
 section{
 	width: 100%;
-	border: 3px solid black;
+
 	display: flex;
 	flex-direction: column;
 
@@ -24,7 +45,7 @@ section{
 header{
 	width: 100%;
 	height: 50px;
-	border: 1px solid grenn;
+	
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -35,10 +56,10 @@ header{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	border: 1px solid red;
+	
 }
 .logo{
-	margin-left: 25px;
+	margin-left: 40px;
 	text-decoration: none;
 	color: black;
 	font-size: 1.8em;
@@ -54,7 +75,7 @@ header{
 }
 
 .ajuste{
-	margin-right: 10px;
+	margin-right: 35px;
 }
 
 .navegation a{
@@ -79,13 +100,13 @@ article{
 	justify-content: space-around;
 	flex-wrap: wrap;
 	align-items: center;
-	border: 5px solid yellow;
+	
 	height: calc(100vh - 50px);
 }
 
 article .textos{
 	max-width: 700px;
-	border: 1px solid black;
+	
 }
 article h1{
 	font-size: 4em;
@@ -115,7 +136,7 @@ article a:hover{
 
 article img{
 	width: 300px;
-	border: 1px solid black;
+	
 
 }
 
@@ -127,12 +148,18 @@ article ul{
 }
 article li{
 	list-style: none;
+	height: 50px
+
 }
 
 article ul img{
 	max-width: 50px;
 }
 
+.barraLateral li{
+	border: 1px solid white;
+	border-radius: 90px;
+}
 
 
 
