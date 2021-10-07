@@ -185,5 +185,14 @@ article ul img{
 		margin-left: 10px;
 	}
 
+	article .textos{
+	text-align: center;
+	
+
+	}
+	article a{
+		width: 160px;
+		margin: 10px auto;
+	}
 
 }
