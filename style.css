@@ -65,6 +65,9 @@ header{
 	font-size: 1.8em;
 	font-weight: 900;
 }
+.toggler{
+	display: none;
+}
 .navegation li{
 	list-style: none;
 	text-decoration: none;
@@ -167,3 +170,20 @@ article ul img{
 
 
 
+@media (max-width: 600px){
+	.navegation{
+		display: none;
+	}
+
+	.toggler{
+		display: block;
+		margin-right: 25px;
+		width: 25px;
+	}
+
+	.logo{
+		margin-left: 10px;
+	}
+
+
+}
